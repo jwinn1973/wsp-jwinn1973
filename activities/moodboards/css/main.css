@@ -27,16 +27,16 @@ body {
 #title h2 {
 	text-align: center;
 	padding-top: 10px;
-	color: white;
-	text-shadow: 2px 1px 5px silver;
+	color: navy;
+	text-shadow: 1px 0px 4px white;
 }
 
 #title h4{
 	text-align: center;
 	margin-top: -26px;
 	margin-right: -50px;
-	color: silver;
-	text-shadow: 1px 1px 1px white;
+	color: navy;
+	text-shadow: 0px 0px 3px white;
 }
 
 article{
