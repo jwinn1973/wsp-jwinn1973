@@ -1,0 +1,59 @@
+body {
+	max-width: 940px;
+	font: 100% Arial, Helvetica, sans-serif;
+	background-color: black;
+	font-style: normal;
+
+	
+} 
+
+#wrapper {
+
+	width: 900px;
+	margin: -2.4% 25%;
+	background-color: white;
+	border-left:10px solid #bfd0ff;
+	border-right:10px solid #bfd0ff;
+	
+}
+
+#title{
+	background-image: url(../images/background.png);
+	background-position: top center;
+	background-size: 100%;
+	height: 80px;
+}
+
+#title h2 {
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+	text-shadow: 2px 1px 5px silver;
+}
+
+#title h4{
+	text-align: center;
+	margin-top: -26px;
+	margin-right: -50px;
+	color: silver;
+	text-shadow: 1px 1px 1px white;
+}
+
+article{
+	margin-top: -20px;
+}
+
+article img{
+ width: 900px;
+ margin-top: -20px;
+}
+
+article h3{
+	background-color: #bfd0ff;
+	line-height: 30px;
+}
+
+footer{
+	height: 30px;
+	background-color: #bfd0ff;
+}
