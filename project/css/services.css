@@ -1,0 +1,103 @@
+/*===== Begin Services Css =====*/
+
+#services_content {
+	width: 704px;
+	margin-top: 60px;
+	/*background-color: pink;*/
+	overflow: hidden;
+	text-align:justify;
+	padding-top: 5px; 
+}
+
+#services_content ul{
+	
+	width: 97.5%;
+	list-style-type: none;
+	font-size: 14px;
+	line-height: 25.82px;
+	text-align:justify;
+	margin-left: -30px;
+	
+}
+
+#services_content h4 {
+	margin-top: -10px;
+	float: right;
+	font-size: 14px;
+	text-decoration: underline;
+	color: lightblue;
+}
+
+#email_area {
+	margin-top: 240px;
+	width: 100%;
+	height: 200px;
+	float: left;
+	
+}
+
+#email_area h2{
+	margin-top: 14px;
+}
+
+#email_area h2, #email_area p {
+	margin-left: 20px;
+}
+
+#email_area p{
+	font-size: 13px;
+	line-height: 2px;
+}
+
+#emailus{
+	width: 100px;
+	height: 18px;
+	background:url(../images/email_btn.gif);
+	background-size: 100%;
+	text-align: center;
+	color: white;
+	float: right;
+	margin-top: 8px;
+	margin-right: 28px;
+}
+
+#emailus h4, #emailus a{
+		font-size: 12px;
+		margin-top: 2px;
+}
+
+#emailus h4:hover, #emailus a:hover{
+	color: black;
+}
+
+aside{
+	width: 230px;
+	float: right;
+	clear: right;
+}
+
+aside img{
+	width: 100%;
+	margin-top: 35px;
+}
+#hours {
+	width: 100%;
+	height: 200px;
+	background:url(../images/hours_bg.gif);
+}
+
+#hours ul{
+	width: 100%;
+	margin-left: 10px;
+	margin-top: -10px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 16px;
+
+}
+
+#hours h3{
+	margin-left: 10px;
+}
