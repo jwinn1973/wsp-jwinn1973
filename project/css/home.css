@@ -70,6 +70,11 @@ aside2 h2{
 	background:url(../images/bgbtn3_ro.gif);
 }
 
+#main_content a{
+	text-decoration: none;
+	color: black;
+}
+
 /* End Big Buttons */	
 
 

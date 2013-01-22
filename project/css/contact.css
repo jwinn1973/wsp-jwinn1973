@@ -1,0 +1,127 @@
+/*===== Contact Css =====*/
+
+h1 {
+	font: 38px League Gothic;
+}
+
+p, a {
+	font: Verdana;
+}
+
+aside{
+	margin-top: 0px;
+	width: 200px;
+	float: right;
+	clear: both;
+}
+
+#services {
+	margin-top: 0px;
+	width: 100%;
+	float: right;
+	clear: right;
+	text-align: left;
+	/*padding-left: 5px;*/
+	background-color: #bae8ca;
+}
+
+#services ul {
+	margin-top: -30px;
+	width: 100%;
+	margin-left: 10px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 25.82px;
+}
+
+#services h2 {
+	margin-top: 2px;
+	margin-left: 20px;
+	font: 30px League Gothic;
+	padding-bottom: 10px;
+}
+
+#hours {
+	width: 200px;
+	height: 200px;
+	background:url(../images/hours_bg.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100%;
+}
+
+#hours ul{
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 16px;
+
+}
+
+/*#hours h3{
+	margin-left: 10px;
+}*/
+
+
+#contact{
+	/*background-color: pink;*/
+	margin-top: 80px;
+	width: 740px;
+	padding-left: 5px;
+}
+
+#email_area{
+	background-color: #bae8ca;
+	width: 718px;
+	height: 410px;
+	padding-left: 5px;
+	background:url(../images/pup_bg.gif);
+	background-position: top center;
+	background-attachment: scroll;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-top: 0.5px;
+	clear: both;
+}
+
+input    {
+width: 50%;
+display:block;
+border: 1px solid #999;
+height: 22px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input:focus {
+	background: yellow;
+}
+
+#message{
+	width: 50%;
+	display:block;
+	border: 1px solid #999;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#message:focus {
+	background: yellow;
+}
+
+#newsletter{
+	display:inline;
+	margin-top: 10px;
+	margin-left: -20px;
+}
+
+.button {
+	margin-left: 300px;
+}

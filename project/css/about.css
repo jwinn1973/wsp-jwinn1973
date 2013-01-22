@@ -1,0 +1,151 @@
+#main_content {
+ 	width: 735px;
+	margin-top: 60px;
+	overflow: hidden;
+	text-align:justify;
+	padding-top: 5px; 
+}
+
+#main_content p, #main_content h2{
+	width: 98%;
+	padding: 5px;
+}
+
+
+
+aside{
+	margin-top: 44px;
+	width: 200px;
+	float: right;
+	clear: both;
+	text-align: left;
+	padding-left: 5px;
+	background-color: #bae8ca;
+}
+aside ul {
+	width: 100%;
+	margin-left: 10px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 25.82px;
+}
+
+aside h2{
+	
+	margin-top: 2px;
+	margin-left: 20px;
+	font: 38px League Gothic;
+}
+
+#the_staff{
+	width: 940px;
+	margin-top: 180px;
+}
+
+#the_staff ul {
+	width: 100%;
+	margin-left: 10px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 25.82px;
+}
+
+#the_staff img{
+	width: 200px;
+	float: left;
+	clear: left;
+	padding-bottom: 10px;
+}
+
+#the_staff p{
+	width: 65%;
+	float: right;
+	clear: right;
+	text-align:justify;
+	margin-right: 60px;
+	margin-top: 10px;
+}
+
+#btm_content {
+	margin-top: -20px;
+	width: 735px;
+	height: 160px;
+	float: left;
+	overflow: hidden;
+}
+
+#hours {
+	float: left;
+	clear: left;
+	margin-top: 0px;
+	width: 245px;
+	height: 200px;
+	background:url(../images/hours_bg.gif);
+	background-position: top center;
+	background-attachment: scroll;
+	background-size:80%;
+	background-repeat: no-repeat;
+	
+}
+
+#hours ul{
+	width: 100%;
+	margin-left: 10px;
+	margin-top: -16px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	font-size: 11px;
+	line-height: 14px;
+
+}
+
+#hours h3{
+	margin-left: 10px;
+}
+
+#email_area {
+	margin-top: 0px;
+	width: 488px;
+	height: 200px;
+	float: left;
+	background:url(../images/email_bg.gif);
+	background-size: 100%;
+}
+
+#email_area h2{
+	margin-top: 14px;
+}
+
+#email_area h2, #email_area p {
+	margin-left: 20px;
+}
+
+#email_area p{
+	font-size: 13px;
+	line-height: 2px;
+}
+
+#emailus{
+	width: 200px;
+	height: 35px;
+	background:url(../images/email_btn.gif);
+	background-size: 100%;
+	text-align: center;
+	color: white;
+	float: right;
+	margin-top: -40px;
+	margin-right: 28px;
+}
+
+#emailus h4, #emailus a{
+		margin-top: 6.5px;
+}
+
+#emailus h4:hover, #emailus a:hover{
+	color: black;
+}
