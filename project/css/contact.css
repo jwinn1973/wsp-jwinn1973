@@ -47,7 +47,7 @@ p, a {
 	background-color: #bae8ca;
 	width: 74.791666666667%; /*718px*/
 	float: left;
-	height: 410px;
+	height: 500px;
 	padding-left: 00.696378830084%; /*5px*/
 	background:url(../images/pup_bg.gif);
 	background-position: top center;
@@ -56,6 +56,7 @@ p, a {
 	background-repeat: no-repeat;
 	padding-top: 0.5px;
 	clear: both;
+	overflow: hidden;
 }
 
 input    {
@@ -85,15 +86,23 @@ input:focus {
 	background: yellow;
 }
 
-#newsletter{
+#form5{
 	display:inline;
-	margin-top: 10px;
-	margin-left: -20.83333333333%; /*-20px*/
 }
 
+#form5 p{
+	margin-top: 2px;
+	font-size: 90%;
+	float: left;
+}
+
+#options{
+	margin: -18px 2.127659574468%;
+	width: 20%;
+ }
+
 .button {
-	margin-top: 10px;
-	margin-left: 16.666666666667%; /*160px*/
+	margin: 14px 10.416666666667%; 
 }
 
 /* ============Aside=========== */
@@ -151,19 +160,82 @@ aside2 {
 	clear: both;
 }
 
-#form5{
- float: left;
- margin-left: 5px;
- display: inline;
-}
+/* =Media Queries
+==============================================================*/
 
-#form5 label{
-	font-size: 80%;
- 	margin-left: -26px;
- 	display: inline;
+	/* Tablet Portrait size to standard 960 (devices and browsers)*/
+    @media screen and (max-width: 1024px){
+		#wrapper {width: 100%}
+		#wrapper {margin: auto;}
+		#services_content { width: 100%;}
+		aside {display:none;}
+		aside2 {display:none;}
+		#contact {width: 100%;}
+		#email_area2 {width: 100%; height: 600px; margin-top: 40px;}
+		.button {margin: 14px -20.625%;}
+		footer {width: 100%;}
+	}	
+	
+	/* Tablet size Portrait (devices and browsers)*/
+	@media screen and (max-width:800px) {
+		#wrapper {width: 100%}
+		#wrapper {margin: auto;}
+		#services_content { width: 100%;}
+		aside {display:none;}
+		aside2 {display:none;}
+		#contact {width: 100%; margin-top: 20px;}
+		#contact h1 { font-size: 1.750em; margin-top: 45px;}
+		#email_area2 {width: 100%; height: 500px; margin-top: 20px;}
+		.button {margin: 14px -25%;}
+		footer {width: 100%;}
+	}	
+			
+	/* Tablet size Portrait (devices and browsers)*/
+	@media screen and (max-width:600px) {
+		#wrapper {width: 100%}
+		#wrapper {margin: auto;}
+		#services_content { width: 100%;}
+		aside {display:none;}
+		aside2 {display:none;}
+		#contact {width: 100%; margin-top: 20px;}
+		#contact h1 { font-size: 28px; margin-top: -20px;}
+		#email_area2 {width: 100%; height: 500px; margin-top: 20px;}
+		.button {margin: 14px -33%;}
+		footer {width: 100%;}
+	}	
 
-}
+	/* Mobile Portrait to Mobile Landscape Size (devices and browsers)*/
+    @media screen and (max-width: 480px){
+		#wrapper {width: 100%}
+		#wrapper {margin: auto;}
+		#services_content { width: 100%;}
+		aside {display:none;}
+		aside2 {display:none;}
+		#contact {width: 100%; margin-top: 20px;}
+		#contact h1 { font-size: 1.750em; margin-top: -20px;}
+		#email_area2 {width: 100%; height: 360px; margin-top: 20px; background-image: none; overflow: scroll;}
+		#email_area2 h2{ font-size: 1.625em;}
+		input, #message {width: 98%;}
+		#form5 {display: inline-block; width: 80%; float: left; margin-left: -90px}
+		#form5 label,  {margin-right: 200px;}
+		#form5 p{margin-left: 90px; width:}
+		#options{margin: -18px 90px; width: 50%;}
+		.button { margin: 60px -60%;}
+		footer {width: 100%;}
+	}	
 
-#newsletter{
-	display: inline;
-}
+	@media screen and (max-width: 320px){
+			#wrapper {width: 100%; margin: auto;}
+			header img {width: 70%; margin-left: 15%}
+			aside {display:none;}
+			#services_content {font-size: 90%;  margin-top:-30px; width:97%;}
+			#contact h1{font-size: 140%;}
+			#contact p {font-size: 90%;}
+			nav li {margin-top: 26px; width: 100%;}
+			#email_area2 h2{font-size:120%}
+			#email_area2{font-size: 90%}
+			#form5 p{width:100%}
+			#options{width:100%;}
+			.button{margin-left: -49%;}
+			footer {width: 100%;}
+		}

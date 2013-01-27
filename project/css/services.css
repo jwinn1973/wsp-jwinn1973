@@ -126,56 +126,34 @@ aside img{
 		#wrapper {width: 90%}
 		#wrapper {margin: auto;}
 		aside {display:none;}
-		#slider {margin-top: 18px;}
-		#tabs {margin-top: -40px;}
-		#tabs {width: 100%;}
-		#btm_content {width: 100%;}
-		footer {width: 90%;}
+		#services_content {font-size: 90%; width:100%; margin-top:-15px;}
+		footer {width: 100%;}
 	}	
 			
 	/* Tablet size Portrait (devices and browsers)*/
 	@media screen and (max-width:600px) {
 
-		#wrapper {width: 100%}
-		#wrapper {margin: auto;}
+		#wrapper {width: 100%; margin:auto;}
 		aside {display:none;}
-		#slider {margin-top: 18px;}
-		#tabs {margin-top: -100px;}
-		#tabs {width: 100%;}
-		#btm_content {width: 100%;}
+		#services_content{padding-right:5px;}
 		footer {width: 100%;}
-		#hours {background-image:none}
 	}
 
 	/* Mobile Portrait to Mobile Landscape Size (devices and browsers)*/
     @media screen and (max-width: 480px){
-			#wrapper {width: 100%}
-			#wrapper {margin: auto;}
-			aside {display:none;}
-			#slider {width: 100%}
-			#slider {margin-top: -12px;}
-			#tabs {margin-top: -150px;}
-			#tabs {width: 100%;}
-			#btm_content {width: 100%;}
-			footer {width: 100%;}
-			#hours {width: 100%;}
-			#email_area {width:100%; float: left; background-image: none; margin-top:-40px; margin-left: -18px; } 
-			#emailus {margin-top: -50px;}
+		#wrapper {width: 98%;}
+		#wrapper {margin: auto;}
+		aside {display:none;}
+		#services_content{padding-right:10px;}
+		footer {width: 100%;}
+			
 		}
 
 	@media screen and (max-width: 320px){
-			#wrapper {width: 100%}
-			#wrapper {margin: auto;}
+			#wrapper {width: 100%; margin: auto;}
 			header img {width: 70%; margin-left: 15%}
 			aside {display:none;}
-			#slider {display: none;}
+			#services_content {font-size: 90%;  margin-top:-30px; width:97%;}
 			nav li {margin-top: 26px; width: 100%;}
-			#tabs {margin-top: -10px;}
-			#tabs {width: 100%;}
-			#tabs-1,#tabs-2 {width: 90%;}
-			#btm_content {width: 100%;}
 			footer {width: 100%;}
-			#hours {width: 100%;}
-			#email_area {width:100%; float: left; background-image: none; margin-top:-40px; margin-left: -18px; } 
-			#emailus {margin-top: -14px;}
 		}
