@@ -1,18 +1,12 @@
 /*===== Contact Css =====*/
 
-h1 {
-	font: 38px League Gothic;
+h1, h2 {
+	font: 2.375em League Gothic;
+	letter-spacing: 2.5px;
 }
 
 p, a {
 	font: Verdana;
-}
-
-aside{
-	margin-top: 0px;
-	width: 200px;
-	float: right;
-	clear: both;
 }
 
 #services {
@@ -21,65 +15,40 @@ aside{
 	float: right;
 	clear: right;
 	text-align: left;
-	/*padding-left: 5px;*/
 	background-color: #bae8ca;
 }
 
 #services ul {
 	margin-top: -30px;
 	width: 100%;
-	margin-left: 10px;
+	margin-left: 01.041666666667%; /*10px;*/
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
-	font-size: 14px;
+	font-size: 87.5%;
 	line-height: 25.82px;
 }
 
 #services h2 {
 	margin-top: 2px;
-	margin-left: 20px;
+	margin-left: 02.083333333333%;/*20px*/
 	font: 30px League Gothic;
 	padding-bottom: 10px;
 }
 
-#hours {
-	width: 200px;
-	height: 200px;
-	background:url(../images/hours_bg.gif);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-size: 100%;
-}
-
-#hours ul{
-	width: 100%;
-	list-style-type: none;
-	padding: 0;
-	overflow: hidden;
-	font-size: 12px;
-	line-height: 16px;
-
-}
-
-/*#hours h3{
-	margin-left: 10px;
-}*/
-
-
 #contact{
-	/*background-color: pink;*/
 	margin-top: 80px;
-	width: 740px;
-	padding-left: 5px;
+	width: 77.083333333333%; /*740px*/
+	padding-left: 00.675675675676%; /*5px*/
 }
 
-#email_area{
+#email_area2{
+	margin-top: -480px;
 	background-color: #bae8ca;
-	width: 718px;
+	width: 74.791666666667%; /*718px*/
+	float: left;
 	height: 410px;
-	padding-left: 5px;
+	padding-left: 00.696378830084%; /*5px*/
 	background:url(../images/pup_bg.gif);
 	background-position: top center;
 	background-attachment: scroll;
@@ -119,9 +88,82 @@ input:focus {
 #newsletter{
 	display:inline;
 	margin-top: 10px;
-	margin-left: -20px;
+	margin-left: -20.83333333333%; /*-20px*/
 }
 
 .button {
-	margin-left: 300px;
+	margin-top: 10px;
+	margin-left: 16.666666666667%; /*160px*/
+}
+
+/* ============Aside=========== */
+
+aside2 {
+	width: 20%;
+	margin-top: 0;
+	float: right;
+	clear: right;
+	
+}
+
+#hours {
+	float: right;
+	clear: right;
+	margin-top: 10px;
+	width: 100%;
+	height: 200px;
+	background:url(../images/hours_bg.gif);
+	background-position: top center;
+	background-attachment: scroll;
+	background-size:100%;
+	background-repeat: no-repeat;
+	
+}
+
+#hours ul{
+	width: 100%;
+	margin-left: 01.041666666667%; /*10px;*/
+	margin-top: -16px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	font-size: 68.8%;
+	line-height: 14px;
+
+}
+
+#hours h3{
+	margin-left: 01.041666666667%; /*10px;*/
+}
+
+#locate {
+	width: 97%;
+	height: 320px;
+}
+
+#locate iframe{
+	width: 100%;
+	height: 320px;
+}
+
+#form1, #form2, #form3, #form5{
+	margin-top: -10px;
+	clear: both;
+}
+
+#form5{
+ float: left;
+ margin-left: 5px;
+ display: inline;
+}
+
+#form5 label{
+	font-size: 80%;
+ 	margin-left: -26px;
+ 	display: inline;
+
+}
+
+#newsletter{
+	display: inline;
 }

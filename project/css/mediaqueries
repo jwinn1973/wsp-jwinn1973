@@ -1,0 +1,83 @@
+/* =Media Queries
+==============================================================*/
+
+		/* Tablet Portrait size to standard 960 (devices and browsers)*/
+    @media screen and (max-width: 1024px){
+	#wrapper {margin: 0 auto;}
+	body {background-image: none;}
+	#content article {
+	text-indent: 0;
+	padding: 0;}
+	/*#content section {background-image: 100%;}*/
+	#main_content{ width: 100%;}
+	.container {width:70%;}
+	#contact {width:70%;}
+}
+	
+	/* Tablet size Portrait (devices and browsers)*/
+	@media screen and (max-width: 768px) {
+		#wrapper {margin: 0 auto;}
+		#content article { width: 100%;}
+		ul{margin-top: 0}
+		/*nav li {width: 100%;}*/
+		body {background-image: none;}
+		h2  {margin-top: -6px;}
+		#contact {background-image: none;}
+		.container #fanfilm {height: 50%; }
+		/*#content section {background-image: 100%;}*/
+		#main_content{ width: 100%;}
+		.container {width:100%;}
+		#contact {width:100%;}
+		aside{ float: none; width: 100%;overflow: hidden;}
+		#asideimg1 {float: left;  width: 50%}
+		#asideimg2 {float: left;  width: 50%;}
+		.map {margin: 0 auto; width: 40%;}
+		#survivors {margin: 0 auto; width: 50%;}
+		#survivors h3{ width: 100%;}
+		#floattable {display: none;}
+		form {margin: 0 auto;}
+		#newsletter {margin-left: -100px;}
+		p label {margin-left: -80px;}
+		#content article {-moz-column-count:1; text-align: justify; padding-right: 10px; }
+		}	
+		
+		
+	/* Tablet size Portrait (devices and browsers)*/
+	@media screen and (max-width: 600px) {
+	#wrapper {margin: 0 auto;}
+		ul{margin-top: 0}
+		nav li {width: 100%;}
+		footer li {width: 100%}
+		body {background-image: none;}
+		h2  {margin-top: -6px;}
+		#contact {background-image: none;}
+		#content section {background-image: none;}
+		#main_content{ width: 100%;}
+		.container {width:100%;}
+		#contact {width:100%;}
+		aside {display: none;}
+		form {margin: 0 auto;}
+		#newsletter {margin-left: -80px;}
+		p label {margin-left: -70px;}
+		#content article {-moz-column-count:1; text-align: justify; padding-right:10px;}
+		
+		}
+
+	/* Mobile Portrait to Mobile Landscape Size (devices and browsers)*/
+    @media screen and (max-width: 480px){
+	#wrapper {margin: 0 auto; width: 100%;}
+		ul{margin-top: 0}
+		nav li {width: 100%;}
+		h2  {font-size: 8px; display: none; margin-top: -6px;}
+		aside {display: none;}
+		.container {width: 100%;}
+		body {background-image: none;}
+		.container img {display: none;}
+		.container p {width: 90%;}
+		#content p {width: 90%; margin: 0 auto;}
+		form {margin: 0 auto ;}
+		#newsletter {margin-left: -50px;}
+		p label {margin-left: -40px;}
+		#content article {-moz-column-count:1; text-align: justify; }
+	
+} 

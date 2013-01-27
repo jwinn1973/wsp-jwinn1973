@@ -3,71 +3,62 @@
 
 body {
 	max-width: 1240px;
-	min-width: 780px;
 	font: 100% Arial, Helvetica, sans-serif;
 	background-color: white;
 	font-style: normal;
 	background-image: url(../images/bkground.png);
+	background-color: white;
 	background-attachment: scroll;
 	background-repeat: repeat-x;
 } 
 
 #wrapper {
 
-	width: 940px;
-	margin: 0px  15%;
+	width: 77.41935483871%;/*960px*/
+	margin: auto;
 	background-color: white;
 	overflow: hidden;	
 }
 
 /* Header Css */
+
 header {
 	width: 100%;
 	height: 55px;
 	background-color: #789dc3;
+	
 }
 
-#header1, #header2, #header3 {
-	width: 350px;
-	float: left;
-	clear: both;
-	overflow: hidden;
+header img{
+	width: 36.458333333333%;
+	overflow: visible;
 }
-
-#header2 {
-	margin-top: -5.5px;
-}
-
-#header3{
-	margin-top: -16.8px;
-}
-/* =======End Header======= */
 
 /* ================Navigation Css============== */
 
 nav {
-	background-color: #0b63aa;
+	/*background-color: #736a58;*/
 }
 
 nav ul {
 	width: 100%;
 	margin-top:0px;
-	background: #0b63aa;
+	background: #736a58;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
 }
 	
 nav li {
-	width: 147.5px;
+	width: 15.364583333333%;
 	background: #0b63aa;
-	float: left;
+	float: right;
 	text-align: center;
 }
 
 nav a {
 	text-decoration: none;
-	background: #0b63aa;
+	background: #736a58;
 	display: block;
 	line-height: 30px;
 	text-align: center;  
@@ -80,15 +71,133 @@ nav a:hover {
 	
 }
 
-/* End Of Navigation Css */
+/* ============Aside=========== */
+
+aside {
+	width: 20%;
+	margin-top: 80px;
+	float: right;
+	clear: right;
+	background-color: #f4f4f4;	
+}
+
+aside ul {
+	width: 100%;
+	margin-left: 0.208333333333;/*2px*/
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	font-size: 0.813em;
+	line-height: 27px;
+	font: Verdana;
+	margin-top: -16px;
+	box-shadow: 5px 2px 2px silver;
+}
+
+aside h2 {
+	font: 150% League Gothic;
+	margin-top: 4px;
+	margin-left: 0.208333333333;/*2px*/
+	color: #6c6552;
+	text-decoration: bold;
+	letter-spacing: 2px;
+}
+
+aside a {
+	text-decoration: none;
+	font: Verdana;
+	color: #6c6552;
+	/*text-shadow: 1px 3px .5px silver;*/	
+	
+}
+
+aside a:hover {
+	text-decoration: underline;
+	font-size: 105%;
+}
+
+
+
+/* business hours css */
+
+#hours {
+	float: left;
+	clear: left;
+	margin-top: 0px;
+	width: 25.520833333333%;
+	height: 200px;
+	background:url(../images/hours_bg.gif);
+	background-position: top center;
+	background-attachment: scroll;
+	background-size:100%;
+	background-repeat: no-repeat;
+	
+}
+
+#hours ul{
+	width: 100%;
+	margin-left: 01.041666666667%; /*10px;*/
+	margin-top: -16px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	font-size: 68.8%;
+	line-height: 14px;
+
+}
+
+#hours h3{
+	margin-left: 01.041666666667%;/*10px;*/
+}
+
+/* email area css */
+
+#email_area {
+	margin-top: 10px;
+	width: 50.833333333333%;
+	height: 160px;
+	float: right;
+	background:url(../images/email_bg.gif);
+	background-size: 100%;
+}
+
+#email_area h2{
+	margin-top: 14px;
+}
+
+#email_area h2, #email_area p {
+	margin-left: 20px;
+}
+
+#email_area p{
+	font-size: 81.3%; /*13px*/
+	line-height: 2px;
+}
+
+#emailus h4, #emailus a {
+		margin-top: 6.5px;
+		float: right;
+		clear: right;
+		border: 0px solid;
+		border-radius:25px;
+		padding: 5px 60px;
+		background-color: #736a58;
+}
+
+#emailus h4:hover, #emailus a:hover {
+	color: white;
+}
 
 /* Footer css*/
 
 footer {
+	width: 77.41935483871%;
+	margin: -11px  auto;
 	font-size: 70%;
 	text-align: center;
 	color: white;
-	background: blue;
+	background: #736a58;
+	line-height: 25px;
 	
 }
 	

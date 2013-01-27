@@ -1,5 +1,32 @@
+#main_content h1 {
+	font: 2.375em League Gothic;
+	letter-spacing: 2.5px;
+}
+
+#the_staff h2{
+	font: 1.500em League Gothic;
+	letter-spacing: 2.5px;
+	background-color: #736a58;
+	width: 76.5625%; /*735px*/
+	display: block;
+	line-height: 30px;
+	padding: 0.5%; /*5px*/
+}
+
+#the_staff h4{
+	font: 1.250em League Gothic;
+	letter-spacing: 3px;
+	line-height: 16px;
+
+}
+
+#the_staff{
+	margin-top: -20px;
+
+}
+
 #main_content {
- 	width: 735px;
+ 	width: 76.5625%; /*735px*/
 	margin-top: 60px;
 	overflow: hidden;
 	text-align:justify;
@@ -8,73 +35,17 @@
 
 #main_content p, #main_content h2{
 	width: 98%;
-	padding: 5px;
+	padding: 0.5%; /*5px*/
 }
 
 
-
-aside{
-	margin-top: 44px;
-	width: 200px;
-	float: right;
-	clear: both;
-	text-align: left;
-	padding-left: 5px;
-	background-color: #bae8ca;
-}
-aside ul {
-	width: 100%;
-	margin-left: 10px;
-	list-style-type: none;
-	padding: 0;
-	overflow: hidden;
-	font-size: 14px;
-	line-height: 25.82px;
-}
-
-aside h2{
-	
-	margin-top: 2px;
-	margin-left: 20px;
-	font: 38px League Gothic;
-}
-
-#the_staff{
-	width: 940px;
-	margin-top: 180px;
-}
-
-#the_staff ul {
-	width: 100%;
-	margin-left: 10px;
-	list-style-type: none;
-	padding: 0;
-	overflow: hidden;
-	font-size: 14px;
-	line-height: 25.82px;
-}
-
-#the_staff img{
-	width: 200px;
-	float: left;
-	clear: left;
-	padding-bottom: 10px;
-}
-
-#the_staff p{
-	width: 65%;
-	float: right;
-	clear: right;
-	text-align:justify;
-	margin-right: 60px;
-	margin-top: 10px;
-}
 
 #btm_content {
-	margin-top: -20px;
-	width: 735px;
+	margin-top: -90px;
+	width: 76.5625%; /*735px*/
 	height: 160px;
 	float: left;
+	clear: both;
 	overflow: hidden;
 }
 
@@ -82,7 +53,7 @@ aside h2{
 	float: left;
 	clear: left;
 	margin-top: 0px;
-	width: 245px;
+	width: 25.520833333333%; /*245px*/
 	height: 200px;
 	background:url(../images/hours_bg.gif);
 	background-position: top center;
@@ -110,7 +81,7 @@ aside h2{
 
 #email_area {
 	margin-top: 0px;
-	width: 488px;
+	width: 50.833333333333%; /*488px*/
 	height: 200px;
 	float: left;
 	background:url(../images/email_bg.gif);
@@ -132,14 +103,14 @@ aside h2{
 
 #emailus{
 	width: 200px;
+	font-size: 16px;
 	height: 35px;
-	background:url(../images/email_btn.gif);
-	background-size: 100%;
 	text-align: center;
 	color: white;
 	float: right;
+	display: inline;
 	margin-top: -40px;
-	margin-right: 28px;
+	margin-right: -17.708333333333%; /*-170px*/
 }
 
 #emailus h4, #emailus a{
@@ -149,3 +120,145 @@ aside h2{
 #emailus h4:hover, #emailus a:hover{
 	color: black;
 }
+
+#accordion{
+	margin-top: -20px;
+	width: 77.5%; /*735px*/
+	height: 385px;
+	overflow: hidden;
+
+}
+
+#accordion img{
+	width: 28%;
+	float: left;
+	overflow: hidden;
+}
+
+#accordion p{
+	font-size: 80%;
+	width: 70%;
+	float: right;
+	clear: right;
+	overflow: hidden;
+
+}
+
+aside2 {
+	width: 20%;
+	margin-top: 0;
+	float: right;
+	clear: right;
+}
+
+aside2 img{
+	width: 100%;
+}
+
+#hours2 {
+	float: right;
+	clear: right;
+	margin-top: 10px;
+	width: 100%;
+	height: 200px;
+	background:url(../images/hours_bg.gif);
+	background-position: top center;
+	background-attachment: scroll;
+	background-size:100%;
+	background-repeat: no-repeat;
+	
+}
+
+#hours2 ul{
+	width: 100%;
+	margin-left: 01.041666666667%; /*10px;*/
+	margin-top: -16px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	font-size: 68.8%;
+	line-height: 14px;
+
+}
+
+#hours2 h3{
+	margin-left: 01.041666666667%; /*10px;*/
+}
+
+/* =Media Queries
+==============================================================*/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers)*/
+    @media screen and (max-width: 1024px){
+		#wrapper {width: 90%}
+		#wrapper {margin: auto;}
+		#services_content { width: 100%;}
+		aside {display:none;}
+		aside2 {display:none;}
+		#main_content{width: 100%;}
+		#the_staff h2 {width: 100%;}
+		#accordion {width: 100%;}
+		#btm_content {width: 100%; margin-top: 20px;}
+		footer {width: 100%;}
+	}	
+	
+	/* Tablet size Portrait (devices and browsers)*/
+	@media screen and (max-width:800px) {
+		#wrapper {width: 90%}
+		#wrapper {margin: auto;}
+		#services_content { width: 100%;}
+		aside {display:none;}
+		aside2 {display:none;}
+		#main_content{width: 100%; margin-top: 10px;}
+		#the_staff h2 {width: 100%;}
+		#accordion {width: 100%;}
+		#btm_content {width: 100%; margin-top: -20px;}
+		footer {width: 100%;}
+	}	
+			
+	/* Tablet size Portrait (devices and browsers)*/
+	@media screen and (max-width:600px) {
+			#wrapper {width: 90%}
+			#wrapper {margin: auto;}
+			#services_content { width: 100%;}
+			aside {display:none;}
+			aside2 {display:none;}
+			#main_content{width: 100%; margin-top: 10px;}
+			#the_staff h2 {width: 100%;}
+			#accordion {width: 100%;}
+			#btm_content {width: 100%; margin-top: 10px; clear: both;}
+			#hours {background-image:none}
+			#emailus {margin-right: -100px;}
+			footer {width: 100%;}
+}
+
+	/* Mobile Portrait to Mobile Landscape Size (devices and browsers)*/
+    @media screen and (max-width: 480px){
+			#wrapper {width: 100%}
+			#wrapper {margin: auto;}
+			aside {display:none;}
+			#main_content{width: 100%; margin-top: 10px;}
+			#the_staff h2 {width: 100%;}
+			#accordion {width: 100%; height: 180px; overflow: scroll;}
+			#btm_content {width: 100%; margin-top: 10px; clear: both;}
+			#hours {background-image:none}
+			#emailus {margin-right: -110px;}
+			footer {width: 100%;}
+		}
+
+	@media screen and (max-width: 320px){
+			#wrapper {width: 100%}
+			#wrapper {margin: auto;}
+			header img {width: 70%; margin-left: 15%}
+			aside {display:none;}
+			#main_content{width: 100%; margin-top: -48px;}
+			#main_content h1, #the_staff h2 {font-size: 100%; margin-top: 40px;}
+			#main_content p {font-size: 85%;}
+			#accordion img {width:100%;}
+			#accordion p {font-size: 75%; width: 100%; }
+			nav li {margin-top: 26px; width: 100%;}
+			footer {width: 100%;}
+			#hours {width: 100%; float: left; clear: left;}
+			#email_area {width:100%; float: left; background-image: none;} 
+			#emailus {margin-top: -14px;}
+		}
