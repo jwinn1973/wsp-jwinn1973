@@ -6,7 +6,7 @@
 		#wrapper {width: 90%}
 		#wrapper {margin: auto;}
 		aside {display:none;}
-		aside2 {display:none;}
+		#aside2 {display:none;}
 		#slider {margin-top: 60px;}
 		#tabs {margin-top: 60px;}
 		#tabs {width: 100%;}
@@ -19,7 +19,7 @@
 		#wrapper {width: 90%}
 		#wrapper {margin: auto;}
 		aside {display:none;}
-		aside2 {display:none;}
+		#aside2 {display:none;}
 		#slider {margin-top: 18px;}
 		#tabs {margin-top: -40px;}
 		#tabs {width: 100%;}
@@ -33,7 +33,7 @@
 		#wrapper {width: 100%}
 		#wrapper {margin: auto;}
 		aside {display:none;}
-		aside2 {display:none;}
+		#aside2 {display:none;}
 		#slider {margin-top: 18px;}
 		#tabs {margin-top: -100px;}
 		#tabs {width: 100%;}
@@ -47,7 +47,7 @@
 			#wrapper {width: 100%}
 			#wrapper {margin: auto;}
 			aside {display:none;}
-			aside2 {display:none;}
+			#aside2 {display:none;}
 			#slider {width: 100%}
 			#slider {margin-top: -12px;}
 			#tabs {margin-top: -150px;}
@@ -55,8 +55,8 @@
 			#btm_content {width: 100%;}
 			footer {width: 100%;}
 			#hours {width: 100%;}
-			#email_area {width:100%; float: left; background-image: none; margin-top:-40px; margin-left: -18px; } 
-			#emailus {margin-top: -50px;}
+			#index #email_area {width:100%; float: left; background-image: none; margin-top:-40px; margin-left: -18px; } 
+			#index #emailus {margin-top: -50px;}
 		}
 
 	@media screen and (max-width: 320px){
@@ -65,7 +65,7 @@
 			header img {width: 70%; margin-left: 15%}
 			nav li {margin-top: 26px; width: 100%; text-align: center;}
 			aside {display:none;}
-			aside2 {display:none;}
+			#aside2 {display:none;}
 			#slider {display: none;}
 			#tabs {margin-top: -10px;}
 			#tabs {width: 100%;}
@@ -73,8 +73,8 @@
 			#btm_content {width: 100%;}
 			footer {width: 100%;}
 			#hours {width: 100%;}
-			#email_area {width:100%; float: left; background-image: none; margin-top:-40px; margin-left: -18px; } 
-			#emailus {margin-top: -14px;}
+			#index #email_area {width:100%; float: left; background-image: none; margin-top:-40px; margin-left: -18px; } 
+			#index #emailus {margin-top: -14px;}
 		}
 
 		/* = Services Media Queries

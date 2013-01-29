@@ -83,7 +83,7 @@ nav a:hover {
 
 #index aside ul, #services aside ul, #contact aside ul, #about aside ul {
 	width: 100%;
-	margin-left: 0.208333333333;/*2px*/
+	margin-left: 0.208333333333%;/*2px*/
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
@@ -97,9 +97,8 @@ nav a:hover {
 aside h2 {
 	font: 150% League Gothic;
 	margin-top: 4px;
-	margin-left: 0.208333333333;/*2px*/
+	margin-left: 0.208333333333%;/*2px*/
 	color: #6c6552;
-	text-decoration: bold;
 	letter-spacing: 2px;
 }
 
@@ -272,9 +271,13 @@ footer {
 	color: #789dc3;
 }
 
-#services_content b {
+#services_content h5 {
 	font-size: 115%;
 	color: #789dc3;
+}
+
+#services #services_content p{
+	margin-top: -20px;
 }
 
 #services aside{
@@ -652,7 +655,7 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 
 /* ============Aside=========== */
 
-aside2 {
+#aside2 {
 	width: 20%;
 	margin-top: 0;
 	float: right;
